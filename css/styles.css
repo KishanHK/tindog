@@ -1,0 +1,184 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2{
+  color: #000;
+}
+
+h3{
+  color: #000;
+}
+
+p{
+  padding: 5px;
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button{    /*custom class so we don't have to bootstrap btn class, which can make us in trouble*/
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  /* width: 60% */
+  width: 280px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section*/
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{  /*icon is custom class*/
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press section*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.cta-heading{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  /* font-weight: 900; */
+  color: white;
+}
+
+/* Footer section */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15% 0;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #8f8f8f;
+}
+
+@media (max-width: 1227px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
